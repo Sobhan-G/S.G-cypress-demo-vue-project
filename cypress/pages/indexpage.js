@@ -3,15 +3,13 @@
 // elements
 const IndePageTitle='Acme Web Deisgn | Welcome'
 const AboutLink= '(test-id = about)'
-href="about.html"
-href="services.html"
 
 
 // actions / function
 
-function checkTitleofindespage(cy){
+function checkTitleofindexpage(cy){
 
-    cy.title().should('eq, IndePageTitle')
+    cy.title().should('eq, Indexpagetitle')
 
 }
 
@@ -25,7 +23,7 @@ function navigatetoaboutpage(cy, contentToConfirm){
 module.exports = {
 
 
-    checkTitleofindespage,
+    checkTitleofindexpage,
     navigatetoaboutpage
 
 

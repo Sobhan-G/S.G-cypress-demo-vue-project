@@ -7,7 +7,7 @@ describe('test page objects', function(){
     beforeEach(() => {
 
         cy.visit('http://127.0.0.1:5500/acme/index.html')
-        indexfuncs.checkTitleofindespage(cy)
+        indexfuncs.checkTitleofindexpage(cy)
 
     })
 
@@ -20,4 +20,4 @@ describe('test page objects', function(){
 
     })
 
-})
+})  
